@@ -13,6 +13,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  color: #2E2F42;
 }
 
 .link {
@@ -32,7 +34,7 @@ body {
 .header-navigation {}
 
 .header-logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -63,10 +65,11 @@ body {
   color: var(--hover-color);
 }
 
-.header-adress {}
+.header-adress {
+  font-style: normal;
+}
 
 .header-mail {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -78,11 +81,14 @@ body {
 }
 
 .header-tel {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.header-tel:hover{
+  color: var(--hover-color);
 }
 
 /* HERO */
@@ -101,7 +107,6 @@ body {
 
 .hero-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -174,19 +179,20 @@ body {
 /* TEAM */
 
 .team {
-  background: var( --light-colo);
+  background: var(--light-color);
 }
 
-.team-title {}
-
-.team-list {}
-
-.team-item {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
+
+.team-list {}
+
+.team-item {}
 
 .team-subtitle {
   font-weight: 500;
@@ -197,6 +203,7 @@ body {
 }
 
 .team-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -208,7 +215,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -218,19 +225,19 @@ body {
 }
 
 .footer-logo-studio{
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  color: var( --light-colo);
+  color: var(--light-color);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var( --accent-color);
+  color: var(--accent-color);
 }
 
 /* ------------------- PORTFOLIO PAGE ---------------- */
@@ -245,15 +252,14 @@ body {
 
 .portfolio-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--brand-color);
-  background: var( --light-colo);
-  border: 1px solid var( --accent-color);
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -269,9 +275,7 @@ border-radius: 4px;
 
 }
 
-.portfolio-item {
-  background: #FFFFFF;
-}
+.portfolio-item {}
 
 .portfolio-sybtitle {
   font-weight: 500;
@@ -282,7 +286,6 @@ border-radius: 4px;
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
