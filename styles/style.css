@@ -1,3 +1,16 @@
+:root {
+  --brand-color:#4D5AE5;
+  --hover-color:#404BBF;
+  --dark-color:#2E2F42;
+  --success-color:#31D0AA;
+  --text-color:#434455;
+  --subtitle-color:#8E8F99;
+  --accent-color:#E7E9FC;
+  --light-color:#F4F4FD;
+  --modal-overlay-color:#2E2F4266;
+  --hero-background:#2E2F42B2;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -25,11 +38,11 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .header-logo-web {
-  color: #4D5AE5;
+  color: var(--brand-color);
 }
 
 .header-list {}
@@ -41,13 +54,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .header-navigation-link:hover,
 .header-navigation-link:focus,
 .header-navigation-link.current {
-  color: #404BBF;
+  color: var(--hover-color);
 }
 
 .header-adress {}
@@ -57,11 +70,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .header-mail:is(:hover, :focus) {
-  color: #404BBF;
+  color: var(--hover-color);
 }
 
 .header-tel {
@@ -69,13 +82,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* HERO */
 
 .hero {
-  background: #2E2F42;
+  background: var(--dark-color);
 }
 
 .hero-title {
@@ -94,14 +107,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  background: #4D5AE5;
+  background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .hero-btn:is(:hover, :focus){
-  background: #404BBF;
+  background: var(--hover-color);
 }
 
 /* principles */
@@ -132,14 +145,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .principles-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* DIRECTION */
@@ -151,7 +164,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .direction-list {}
@@ -161,7 +174,7 @@ body {
 /* TEAM */
 
 .team {
-  background: #F4F4FD;
+  background: var( --light-colo);
 }
 
 .team-title {}
@@ -172,7 +185,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .team-subtitle {
@@ -180,18 +193,18 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .footer {
-  background: #2E2F42;
+  background: var(--dark-color);
 }
 
 .footer-logo {
@@ -201,7 +214,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: var(--brand-color);
 }
 
 .footer-logo-studio{
@@ -210,14 +223,14 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  color: #F4F4FD;
+  color: var( --light-colo);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #E7E9FC;
+  color: var( --accent-color);
 }
 
 /* ------------------- PORTFOLIO PAGE ---------------- */
@@ -238,9 +251,9 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4D5AE5;
-  background: #F4F4FD;
-  border: 1px solid #E7E9FC;
+  color: var(--brand-color);
+  background: var( --light-colo);
+  border: 1px solid var( --accent-color);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -248,7 +261,7 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus{
 color: #FFFFFF;
-background: #404BBF;
+background: var(--hover-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 0px 2px 1px rgba(0, 0, 0, 0.08),
 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -265,7 +278,7 @@ border-radius: 4px;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--dark-color);
 }
 
 .portfolio-text {
@@ -273,5 +286,5 @@ border-radius: 4px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
