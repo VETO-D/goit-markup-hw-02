@@ -10,14 +10,10 @@ button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background: #fff;
+  background-color: #ffffff;
 }
 
 /* HEADER */
@@ -77,7 +73,6 @@ body {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-
   color: #fff;
 }
 .hero-btn {
@@ -86,12 +81,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 /* Principles */
@@ -187,7 +180,7 @@ body {
 
 /* footer */
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
