@@ -65,14 +65,16 @@ body {
 .header-address-link:focus {
   color: #404bbf;
 }
+
 /* HERO */
+
 .hero {
   background: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -123,12 +125,13 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
+  text-align: center;
   color: #2e2f42;
 }
 .team-list {
 }
 .team-item {
+  background-color: #fff;
 }
 .team-img {
 }
@@ -157,7 +160,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
+  text-align: center;
   color: #2e2f42;
 }
 .portfolio-list {
