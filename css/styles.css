@@ -48,6 +48,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
@@ -71,8 +72,9 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .hero-btn {
@@ -113,6 +115,7 @@ body {
 /* TEAM */
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -134,14 +137,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #2e2f42;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #434455;
 }
 
